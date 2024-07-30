@@ -1,40 +1,21 @@
-# // Put inputs to an array
-# // Write a loop to go through everynumber of the inputs
-# // Write a function to calculate every inputs
-# // Write a function to have a sum of all the inputs
-
 import math
+# import txt file to python 
 inputFromFile = open("./inputs.txt", "r")
 inputs = []
 sum = 0
 
+# split the content by whitespace
 for line in inputFromFile:
     inputs.append(int(line.strip()))
 
+# function to calculate the fuel 
 def equation(x):
    num= math.floor(x/3) -2 
    return num
 
+#calculate the total number all the results
 for x in inputs:
    sum += equation(x)
    
+#show to result in the terminal
 print(sum)
-
-
-# import math
-# inputFromFile = open("./inputs.txt", "r")
-
-# inputs = []
-
-# for line in inputFromFile:
-#     inputs.append(int(line.strip()))
-
-# total = 0
-
-# for x in inputs:
-#     sum = x // 3
-#     sum2 = math.floor(sum)
-#     sum3 = sum2 - 2
-#     total += sum3
-
-# print(total)
