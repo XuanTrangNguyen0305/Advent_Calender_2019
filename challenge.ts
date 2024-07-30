@@ -1,23 +1,23 @@
-//import inputs.txt file to typescript
+// Import the 'fs' module to work with file system
 import * as fs from "fs";
 
-//read the txt file
+// Read the contents of the 'inputs.txt' file
 let fileContent = fs.readFileSync("inputs.txt", "utf8");
 
-//split the content in inputs.txt by whitespace and parse the strings to intergers
+// Split the content by new lines and convert each line to an integer
 const inputs = fileContent.split("\n").map((line) => parseInt(line, 10));
 
-// //function to calculate the fuel
-const calculation = (num: number) => {
+// Function to calculate the fuel requirement
+const calculation = (num: number): number => {
   return Math.floor(num / 3) - 2;
 };
 
-//calculate by using the function above for each number
+// Apply the calculation function to each number in the array
 for (let i = 0; i < inputs.length; i++) {
   inputs[i] = calculation(inputs[i]);
 }
 
-//calculate the total number all the results
+// Function to calculate the sum of an array of numbers
 const sum = (nums: number[]): number => {
   let total = 0;
   for (let i = 0; i < nums.length; i++) {
@@ -26,5 +26,5 @@ const sum = (nums: number[]): number => {
   return total;
 };
 
-//show to result in the terminal
+// Output the total sum of all results to the terminal
 console.log(sum(inputs));
