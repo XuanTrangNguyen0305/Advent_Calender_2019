@@ -28,13 +28,6 @@ I have implemented solutions in both TypeScript and Python.
 - **Test Framework**: Coming soon
 
 ## Getting Started
-
-### Prerequisites
-
-- **Node.js** (for TypeScript solution)
-- **npm** (for package management)
-- **Python** (for Python solution)
-
 ### Files
 
 - `input.txt`: Contains the input mass values to start with the challenge.
@@ -45,5 +38,15 @@ I have implemented solutions in both TypeScript and Python.
 
 1. **Run the Challenge**: Use `npx` with `tsx` to execute the TypeScript solution.
 
-   ```bash
+   ```
+   python challenge.py
+
+2. **Run the Challenge**: Use `python` to execute the Python solution.
+
+   ```
    npx tsx challenge.ts
+
+3. **Run the Test**: Use `npm test` to execute the TypeScript test with Jest.
+
+   ```
+   npm test 
