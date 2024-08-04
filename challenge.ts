@@ -8,7 +8,7 @@ let fileContent = fs.readFileSync("inputs.txt", "utf8");
 const inputs = fileContent.split("\n").map((line) => parseInt(line, 10));
 
 // Function to calculate the fuel requirement
-const calculation = (num: number): number => {
+export const calculation = (num: number) => {
   return Math.floor(num / 3) - 2;
 };
 
@@ -18,7 +18,7 @@ for (let i = 0; i < inputs.length; i++) {
 }
 
 // Function to calculate the sum of an array of numbers
-const sum = (nums: number[]): number => {
+export const sum = (nums: number[]): number => {
   let total = 0;
   for (let i = 0; i < nums.length; i++) {
     total += nums[i];
