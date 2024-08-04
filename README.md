@@ -1,6 +1,6 @@
-# Advent Calendar 2019 - Day 1
+✨# Advent Calendar 2019 - Day 1 🎅
 
-## The Challenge
+## The Challenge 💪
 
 Fuel required to launch a given module is based on its mass. Specifically, to find the fuel required for a module:
 
@@ -17,12 +17,12 @@ The Fuel Counter-Upper needs to know the total fuel requirement. To find it, ind
 
 I have implemented solutions in both TypeScript and Python.
 
-### TypeScript Solution
+### TypeScript Solution ⌨️
 
 - **File**: `challenge.ts`
-- **Test Framework**: Jest
+- **Test Framework**: Jest 🧪
 
-### Python Solution
+### Python Solution 🐍
 
 - **File**: `challenge.py`
 - **Test Framework**: Coming soon
