@@ -32,7 +32,7 @@ I have implemented solutions in both TypeScript and Python.
 
 - `input.txt`: Contains the input mass values to start with the challenge.
 
-### Running the Solutions 🏃‍♀️‍➡️
+## Running the Solutions 🏃‍♀️‍➡️
 
 #### TypeScript
 
