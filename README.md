@@ -13,16 +13,16 @@ The Fuel Counter-Upper needs to know the total fuel requirement. To find it, ind
 
 **Objective**: What is the sum of the fuel requirements for all the modules on your spacecraft?
 
-## Solutions
+## Solutions 💡
 
 I have implemented solutions in both TypeScript and Python.
 
-### TypeScript Solution ⌨️
+### TypeScript Solution 
 
 - **File**: `challenge.ts`
 - **Test Framework**: Jest 
 
-### Python Solution 🐍
+### Python Solution 
 
 - **File**: `challenge.py`
 - **Test Framework**: Coming soon
@@ -32,7 +32,7 @@ I have implemented solutions in both TypeScript and Python.
 
 - `input.txt`: Contains the input mass values to start with the challenge.
 
-### Running the Solutions
+### Running the Solutions 🏃‍♀️‍➡️
 
 #### TypeScript
 
