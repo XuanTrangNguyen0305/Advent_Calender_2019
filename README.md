@@ -20,14 +20,14 @@ I have implemented solutions in both TypeScript and Python.
 ### TypeScript Solution ⌨️
 
 - **File**: `challenge.ts`
-- **Test Framework**: Jest 🧪
+- **Test Framework**: Jest 
 
 ### Python Solution 🐍
 
 - **File**: `challenge.py`
 - **Test Framework**: Coming soon
 
-## Getting Started
+## Getting Started 😆
 ### Files
 
 - `input.txt`: Contains the input mass values to start with the challenge.
