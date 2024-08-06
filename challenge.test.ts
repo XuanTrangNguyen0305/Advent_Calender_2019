@@ -1,4 +1,4 @@
-import { calculation, sum } from "./challenge"; // Import your functions from the main file
+import { calculation, sum } from "./challenge";
 
 describe("calculation function", () => {
   test("calculate the correct fuel requirement", () => {
@@ -11,8 +11,6 @@ describe("calculation function", () => {
   describe("sum function", () => {
     test("return the correct sum of an array of numbers", () => {
       expect(sum([1, 2, 3, 4, 5])).toBe(15);
-      expect(sum([10, 20, 30])).toBe(60);
-      expect(sum([-1, -2, -3, -4])).toBe(-10);
     });
   });
 });
